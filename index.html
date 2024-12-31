@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone 16 Pro Max Launcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Home Screen -->
+  <div id="home-screen">
+    <!-- App Grid -->
+    <div id="app-grid">
+      <!-- Example App -->
+      <div class="app" onclick="launchApp('camera')">
+        <img src="camera-icon.png" alt="Camera">
+        <span>Camera</span>
+      </div>
+      <div class="app" onclick="launchApp('settings')">
+        <img src="settings-icon.png" alt="Settings">
+        <span>Settings</span>
+      </div>
+      <!-- Add more apps as needed -->
+    </div>
+
+    <!-- Dock -->
+    <div id="dock">
+      <div class="app" onclick="launchApp('phone')">
+        <img src="phone-icon.png" alt="Phone">
+        <span>Phone</span>
+      </div>
+      <div class="app" onclick="launchApp('messages')">
+        <img src="messages-icon.png" alt="Messages">
+        <span>Messages</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
